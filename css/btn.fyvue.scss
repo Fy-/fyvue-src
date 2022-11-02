@@ -1,0 +1,36 @@
+.btn {
+  @apply  text-white shadow rounded-xl whitespace-nowrap  ;
+  .span {
+    @apply text-sm;
+  }
+  &:hover {
+    transition: 0.3s;
+  }
+  &.primary {
+    @apply rounded-lg shadow text-white bg-blue-600;
+    
+  }
+  &.primary:hover {
+    @apply bg-blue-700;
+  }
+  &.accent {
+    @apply rounded-lg shadow text-white bg-purple-600;
+  }
+  &.accent:hover {
+    @apply bg-purple-700;
+  }
+  &.neutral {
+    @apply rounded-lg shadow text-white bg-gray-600;
+    
+  }
+  &.neutral:hover {
+    @apply bg-gray-700;
+  }
+  &.fround {
+    @apply rounded-full;
+  }
+
+  &.btn-defaults {
+    @apply block font-extrabold mx-auto px-4 py-3 mt-4 ;
+  }
+}

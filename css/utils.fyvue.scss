@@ -1,0 +1,62 @@
+.fy-circle-percent {
+  display: flex;
+  flex-flow: row nowrap;
+
+  .circular-chart {
+    display: block;
+    margin: 10px auto;
+    @apply w-32;
+  }
+
+  .circle-bg {
+    fill: none;
+    stroke: #ebedf1;
+    stroke-width: 3.8;
+  }
+
+  .circle {
+    fill: none;
+    stroke-width: 3.8;
+    stroke-linecap: round;
+    animation: progress 3s ease-out forwards;
+  }
+
+  @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+
+  .percentage {
+    fill: #000;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+  }
+}
+.fy-step-bar {
+    @apply border-b mb-4 pb-4;
+    .bar-bg {
+        @apply bg-gray-200 overflow-hidden rounded-full;
+        .bar  {
+            @apply h-2 rounded-full bg-blue-500;
+        }
+    }
+    ol {
+        @apply mt-4 grid grid-cols-3 text-sm font-medium text-gray-500;
+
+        li {
+            @apply flex items-center justify-center;
+
+            &.current-step {
+                @apply text-blue-800
+            }   
+            &.past-step {
+                @apply text-blue-500
+            }
+            &.future-step {
+                @apply text-gray-500
+            }
+        }
+    }
+}

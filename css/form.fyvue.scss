@@ -1,0 +1,49 @@
+.form-error-label {
+  @apply text-xs text-center font-bold -mt-3.5 md:mt-0.5;
+}
+.input-basic {
+    @apply w-full py-3 text-xs placeholder-neutral-400 font-semibold leading-none bg-neutral-50 border-0 outline-none text-black;
+}
+
+.input-box {
+    @apply flex bg-neutral-50 border-neutral-300 border   mb-4 md:mb-0;
+    select {
+        padding-top: 14px;
+        padding-bottom: 13px;
+    }
+}
+
+.label-basic {
+    @apply block uppercase tracking-wide whitespace-nowrap   text-xs font-bold mb-2 text-left pt-0 md:pt-3;
+}
+
+.input-group {
+    @apply w-full;
+}
+
+.error-form {
+    @apply border border-red-600 ;
+}
+.help-text {
+    @apply font-medium text-sm;
+}
+.help-icon {
+    @apply w-6 inline-block -mt-1;
+}
+
+.light {
+    .label-basic, .help-icon, .help-text {
+        @apply text-neutral-600;
+    }
+    .form-error-label {
+        @apply text-red-500;
+    }
+}
+.dark {
+    .label-basic, .help-icon, .help-text {
+        @apply text-neutral-200;
+    }
+    .form-error-label {
+        @apply text-red-400;
+    }
+}

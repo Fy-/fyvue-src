@@ -1,0 +1,1 @@
+Collection of csv file with language for each component.

@@ -1,0 +1,12 @@
+"token","en-US","fr-FR","ja-JP"
+"error_form_the_value_must_be_equal_to_the_other_value","Confirmation must be equal.",,
+"error_form_value_is_required","This field is required.",,
+"error_form_value_is_not_a_valid_email_address","Not a valid email address",,
+"global_datetime","{{val, datetime}}","{{val, datetime}}","{{val, datetime}}"
+"global_paging","Showing {{start, number}} to {{end, number}} of {{total, number}} results",,
+"global_loading_text","loading...",,
+"confirm_modal_cta_cancel","Cancel",,
+"confirm_modal_cta_confirm","Confirm",,
+"unknown_error","Unknown error",,
+"error_notif_title","An error has happened",,
+"error_notif_unknown","Unknown error",,

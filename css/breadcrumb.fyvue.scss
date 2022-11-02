@@ -1,0 +1,20 @@
+.fy-breadcrumb {
+    @apply border-blue-600 py-0 pt-4 mr-auto  font-semibold -mt-1 uppercase;
+    ol {
+        @apply list-none p-0 inline-flex;
+        li {
+            @apply flex items-center pr-2 break-words;
+
+            .link {
+                @apply pr-2 break-words;
+            }
+
+            .bc-innactive {
+                @apply text-gray-600;
+            }
+            .bc-active {
+                @apply text-blue-600;
+            }
+        }
+    }
+}

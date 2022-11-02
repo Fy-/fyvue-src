@@ -1,0 +1,43 @@
+token,en-US,fr-FR,ja-JP,ko-KR,zh-CN
+user_flow_input_tos,Please review and accept the Terms of Service to validate your account,,アカウントを検証するには、利用規約を確認して同意してください,,
+user_flow_input_email,Please input your email address to log in,Veuillez saisir votre adresse email,ログインするにはメールアドレスを入力してください,로그인혀려면 메일주소를 입력해 주세요,要䢎入系统的话，请输入邮箱地址
+user_flow_input_password,Please input your password,Veuillez saisir votre mot de passe,パスワードを入力してください,패스워드를 입력해주세요,请输入密码
+user_flow_register,Register New Account,Créer un nouveau compte,登録,등록,登录
+user_flow_waitlist,Waiting list,Liste d'attente,ウェイティングリスト,웨이팅 리스트,等候名单
+user_flow_pending,Thank you for pre-registering for __SITE_NAME__! Your spot is saved in line and we'll contact you as soon as it's your turn. Your position in line is #%1.,"Merci de vous être préinscrit pour __SITE_NAME__! Vous avez enregistré votre place en ligne, et nous vous contacterons dès que ce sera votre tour. Votre position en ligne est #% 1.",シェルズの事前登録をありがとうございます！現在順番待ちですので、順番が決まり次第ご連絡いたします。あなたのポジションは#%1です,__SITE_NAME__의 사전등록 감사랍니다. 현재 순서를 기다리고 있으므로 순서가 정해지는대로 연락드리겠습니다.,感谢__SITE_NAME__的事前登录！现在按顺序等待，所以等决定了顺序就联系您。您的位置是#%1
+user_email_input_help,"If this is your first time with __SITE_NAME__, please input your email to create an account. If not, you will be prompted to input your password to log in.","S'il s'agit de votre première conenxion à __SITE_NAME__, vous pourrez créer un compte après avoir renseigné votre adresse email. Sinon, votre mot de passe vous sera demandé.",シェルズを初めて利用する場合は、メールアドレスを入力してアカウントを作成してください。そうでない場合は、パスワードを入力してログインしてください,__SITE_NAME__를 처음 사용하려면 이메일 주소를 입력하여 계정을 만드세요. 그렇지 아노을 경우 패스워드를 입력하고 로그인하세요.,首次使用__SITE_NAME__吋，请输入邮箱地址后做成账户。如不是，请输入密码后䢎入系統统
+input_field_email,Email,Veuillez saisir votre adresse email,Eメール,이메일,电子邮件
+user_oauth_help,Or login using one of the following,Ou connectez vous avec l'une des méthodes suivantes,または、次のいずれかを使用してログインします,또는 다음 중 하나를 사용하여 로그인합니다,或使用以下方式登入
+input_field_password,Password,Veuillez saisir votre mot de passe,パスワード,패스워드,密码
+user_register_help,Please fill out the following information,Veuillez remplir les informations suivantes,以下の情報を入力してください,아래의 정보를 입력해 주세요,请输入以下信息
+input_field_reg_name,Your name,Nom d'utilisateur,ユーザーネーム,유저네임,用户名
+input_field_reg_password,Password,Mot de passe,パスワード,패스워드,密码
+input_field_conf_password,Password confirmation,Confirmer le mot de passe,パスワードの確認,패스워드 확인,确认密码
+input_field_accept_tos,I accept the Terms of Service,J'accepte les conditions de service,利用規約に同意します,이용약관에 동의합니다,同意使用协议
+profile_upload_image,Upload Image,Télécharger une image,画像をアップロード,이미지를 업로드,上传图片
+profile_delete_image,Delete Image,Supprimer l'image,画像を削除,이미지 삭제,刪除图片
+login_flow_error,An error occurred while your login attempt. If the error persist please contact us.,,,,
+user_flow_input_otp,One time password validation,,,,
+input_field_otp,Enter your one time password,,,,
+user_flow_sms_verif_message,Welcome to __SITE_NAME__! Your verification code is : {{code}},Bienvenue sur __SITE_NAME__ votre code de vérification est : {{code}},__SITE_NAME__へようこそ！あなたの確認コードは: {{code}},__SITE_NAME__에 오신 것을 환영합니다! 고객님의 확인 코드는: {{code}},欢迎来到__SITE_NAME__！你的确认代码是: {{code}}
+user_sms_check_step1,Please input your phone number below to confirm your account. An SMS will be sent to your phone.,,,,
+user_sms_phone,International format starting with +,,,,
+user_sms_check_step2,"A code has been sent to your phone, please input it below",,,,
+user_sms_code,Input code here...,,,,
+error_password_not_same,The passwords are not identical.,,,,
+error_invalid_login_or_password,Invalid login or password. ,,,,
+email_pwd_reset_text,A request to reset the password of your account has been emitted; please click on the button hereafter to proceed:,,,,
+email_pwd_reset_notice,"This link will remain valid during the 24 hours following the request. Beyond that period, a new request must be emitted. ",,,,
+password_recovery_email_title,__SITE_NAME__ password recovery,,,,
+regards,"Best regards,",,,,
+mtgoxnft_team,The __SITE_NAME__ team,,,,
+"error_tos_not_accepted","You need to accept the terms of service to proceed.",,,,
+"error_name_not_valid","This name is invalid.",,,,
+"error_password_not_acceptable","This password is not acceptable.",,,,
+"recover_pwd_title","Recover your password",,,,
+"pwd_recover_confirm","Please check your emails to reset your password.",,,,
+"recover_pwd_link","Password lost?",,,,
+"recover_pwd_cta","Recover my password",,,,
+"recover_pwd_email_placeholder","Email",,,,
+"recover_pwd_email_label","Email",,,,
+"cta_login_next","Next",,,,

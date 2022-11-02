@@ -1,0 +1,62 @@
+.klb-login {
+  @apply w-full  flex flex-col flex-grow  items-center justify-center;
+  h1 {
+    @apply mt-0 text-2xl;
+  }
+  .label {
+    @apply pb-2 font-thin text-sm;
+  }
+  .message {
+    @apply text-lg;
+  }
+  .response-error {
+    @apply border-2 bg-red-100 text-red-800 text-sm my-2 p-1 border-red-300 rounded;
+  }
+  .oauth-button {
+    @apply h-12 w-12 block  rounded  p-2 mr-3 rounded-full border-4 shadow;
+    &:hover {
+      @apply border;
+    }
+  }
+  .oauth-container {
+    @apply flex items-center justify-center shadow py-3 bg-gray-50 rounded;
+  }
+  .reset-pwd {
+    @apply text-xs underline block absolute mt-6 pt-1 h-12 ;
+    &:hover {
+      @apply no-underline;
+    }
+  }
+}
+.light {
+  .klb-login {
+    .label {
+      @apply text-gray-600;
+    }
+    .checkbox-label {
+      @apply underline text-slate-500; 
+      &:hover {
+        @apply text-slate-500;
+      }
+    }
+    .mandatory {
+      @apply text-red-700;
+    }
+  }
+}
+.dark {
+  .klb-login {
+    .label {
+      @apply text-gray-300;
+    }
+    .checkbox-label {
+      @apply underline text-slate-300; 
+      &:hover {
+        @apply text-slate-300;
+      }
+    }
+    .mandatory {
+      @apply text-red-500;
+    }
+  }
+}

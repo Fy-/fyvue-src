@@ -1,0 +1,59 @@
+.fy-modal {
+  @apply fixed inset-0 z-10 overflow-y-auto;
+  .parent {
+    @apply flex items-center justify-center min-h-screen  ;
+  }
+  .modal-container {
+    @apply relative mx-1 md:mx-0 md:max-w-2xl w-11/12  p-3 md:p-4 lg:p-6 shadow -mt-20 ;
+  }
+  .title {
+    @apply text-xl flex justify-between items-center px-2 py-1 -mt-3 md:-mt-4 lg:-mt-6 -mx-3 md:-mx-4 lg:-mx-6;
+    z-index: 11;
+  }
+  .close-icon {
+    @apply w-8   ;
+    z-index: 12;
+  }
+}
+
+.light {
+  .fy-modal {
+    .parent {
+      @apply text-neutral-800;
+      background: rgba(0,0,0,.2) !important;
+    }
+    .modal-container {
+      @apply bg-neutral-100;
+    }
+    .title {
+      @apply bg-neutral-50;
+    }
+    .close-icon {
+      @apply text-neutral-700;
+      &:hover {
+        @apply text-neutral-800;
+      }
+    }
+  }
+}
+
+.dark {
+  .fy-modal {
+    .parent {
+      @apply text-neutral-300;
+      background: rgba(255,255,255,.2) !important;
+    }
+    .modal-container {
+      @apply bg-neutral-800;
+    }
+    .title {
+      @apply bg-neutral-900;
+    }
+    .close-icon {
+      @apply text-neutral-400;
+      &:hover {
+        @apply text-neutral-200;
+      }
+    }
+  }
+}
