@@ -103,4 +103,4 @@ async function buildFullEntry(minify) {
   ])
 }
 
-Promise.all([buildFullEntry(false), buildFullEntry(true)])
+Promise.all([buildFullEntry(false)])
