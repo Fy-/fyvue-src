@@ -71,7 +71,7 @@ async function buildFullEntry(minify) {
   const bundle = await rollup({
     input: path.resolve(fyvueRoot, 'index.js'),
     plugins,
-    external: generateExternal(["karpeleslab/klbfw", "@vuelidate/core", "@vuelidate/validators", "@vueuse/head", "i18next", "i18next-vue", "mitt", "notiwind", "vue", "vue3-clipboard", "vuex"]),
+    external: generateExternal(["vue-router", "@karpeleslab/klbfw", "@vuelidate/core", "@vuelidate/validators", "@vueuse/head", "i18next", "i18next-vue", "mitt", "notiwind", "vue", "vue3-clipboard", "vuex"]),
     treeshake: true,
   })
   await writeBundles(bundle, [

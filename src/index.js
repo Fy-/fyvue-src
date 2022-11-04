@@ -27,8 +27,8 @@ const useCountries = () => {
   return getCurrentInstance().appContext.config.globalProperties.$countries;
 };
 const useTranslation = () => {
-  return getCurrentInstance().appContext.config.globalProperties.$t;
-}
+  return { t: getCurrentInstance().appContext.config.globalProperties.$t };
+};
 const countriesPromise = () => {
   return new Promise((resolve) => {
     KlbLocation.getCountries().then((_countries) => {

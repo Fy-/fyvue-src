@@ -4,7 +4,7 @@
         <Dialog
             :open="confirm"
             @close="setConfirm"
-            class="fy-modal"
+            class="fy-modal is-confirm"
             style="background: rgba(0, 0, 0, 0.6); z-index:51 !important;"
         >
             <div class="parent">
@@ -13,10 +13,10 @@
                     class="modal-container" style="width: 350px !important; padding: 1rem !important;"
                 >
                     <div>
-                        <DialogTitle class="confirm-modal-desc-title">{{
+                        <DialogTitle class="title">{{
                             title
                         }}</DialogTitle
-                        ><div class="confirm-modal-desc default-p">{{ desc }}</div><br />
+                        ><div class="confirm-modal-desc default-p" v-if="desc">{{ desc }}</div><br />
                         <div class="btn-box">
                             <button
                                 @click="setConfirm(false)"

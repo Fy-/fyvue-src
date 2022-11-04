@@ -26,16 +26,16 @@
         </div>
         <div class="form-error-label" v-if="error">{{ error }}</div>
         <button
-          class="block font-extrabold mx-auto p-2 mt-4 btn primary"
+          class="btn-defaults mt-4 btn primary"
           type="submit"
         >
           {{ $t("save_new_email_button") }}
         </button>
       </form>
     </BaseModal>
-    <span class="text-lg float-left italic mr-2">{{ user.Email }}</span>
+    
     <button
-      class="block font-extrabold float-left p-2 -mt-1 btn primary"
+      class="btn primary btn-defaults inline-block"
       @click="
         () => {
           eventBus.emit('UpdateEmailModal', true);
@@ -47,7 +47,7 @@
         class="h-5 -mt-0.5 align-middle inline-block"
       />
       {{ $t("change_email_btn") }}</button
-    ><br style="clear: both" />
+    ><span class="text-lg italic ml-2">{{ user.Email }}</span>
   </div>
   <FySelfLoading :isLoading="true" style="height: 55px; " :size="[40,40]" v-else />
 </template>

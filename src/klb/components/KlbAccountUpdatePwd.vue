@@ -36,7 +36,7 @@
         </div>
         <div class="form-error-label" v-if="error">{{ error }}</div>
         <button
-          class="block font-extrabold mx-auto p-2 mt-4 btn primary"
+          class="btn-defaults mt-4 btn primary"
           type="submit"
         >
           {{ $t("save_new_pwd_button") }}
@@ -45,7 +45,7 @@
     </FyModal>
 
     <button
-      class="block font-extrabold p-2 mt-4 btn primary"
+      class="btn primary btn-defaults"
       @click="
         () => {
           eventBus.emit('UpdatePwdModal', true);
