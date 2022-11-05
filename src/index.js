@@ -11,6 +11,7 @@ import { getCurrentInstance } from "vue";
 import { notify } from "notiwind";
 import { KlbBilling, KlbLocation, KlbUser, KlbOrder } from "./klb/api";
 import { cropText, formatBytes, isPathActive } from "./utils";
+import { handleSSR } from './ssr.js'
 
 const head = createHead();
 const eventBus = mitt();
@@ -100,4 +101,5 @@ export {
   useEventBus,
   useTranslation,
   head,
+  handleSSR
 };
